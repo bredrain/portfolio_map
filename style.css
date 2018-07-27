@@ -1,0 +1,63 @@
+body, html{
+  width: 100%;
+  height: 100%;
+}
+#name{
+  font-weight: bold;
+  border: solid 1px;
+  padding: 7px;
+
+}
+#contact, #education, #education_details, #exhibitions, #exhibitions_details, #about, #about_details{
+  border: solid 1px;
+
+}
+.justify-content-start{
+  cursor: pointer;
+}
+#education, #education_details, #exhibitions, #exhibitions_details, #about, #about_details{
+  padding: 7px;
+  font-size: 0.8em;
+  font-family: 'Lekton', sans-serif;
+}
+#contact{
+  padding: 7px;
+  word-spacing: 30px;}
+#about_menu{
+margin: 0;
+width: 100%;
+height: auto;
+}
+#accordion {
+position:absolute;
+width: 100%;
+height: auto;
+bottom: 0px;
+margin: 0;
+}
+.legend{
+  position:absolute;
+  top: 0;
+  right: 0;
+  margin: 10px;
+  padding: 10px;
+  border: solid 1px;
+}
+.form-check{
+  font-family: 'Lekton', sans-serif;
+  font-size: 0.8em;
+}
+#Checkbox1, #Checkbox2, #Checkbox3, #Checkbox4, #Checkbox5{
+  margin-left: 0;
+}
+.FW{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  border: solid 1px;
+}
+.checked{
+  background-color: red;
+}

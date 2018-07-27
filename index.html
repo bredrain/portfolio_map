@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>portfolio website</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Lekton" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  <script src="jquery.scrollTo.min.js"></script>
+  <script src="script.js"></script>
+</head>
+<body>
+  <div id="accordion">
+    <div class="container" id = "about_menu">
+
+      <div class="row justify-content-start" data-toggle="collapse" href="#collapse" role="button">
+        <div class="col-3" id = "name">marijn van der eyden</div>
+        <div class="col-4" id = "contact">
+          marijnvde@hetnet.nl
+          +31(6)34956430
+        </div>
+      </div>
+
+      <div  class="collapse multi-collapse" id="collapse">
+        <div class="row">
+          <div class="col" id = "education">education</div>
+          <div class="col-11" id = "education_details">
+            Royal Academy of Art, The Hague, BA, Graphic design, 2014—2018
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col" id = "exhibitions">exhibitions</div>
+          <div class="col-5" id = "exhibitions_details">
+            Declaring Reason, Meermano Museum, The Hague, 2017<br>
+            Borderless States, Waag Society, Amsterdam, 2016<br>
+            Moving type, Moving cities, Fokker Terminal, The Hague, 2015<br>
+            Fantastic enemy exhibition, Affiche Galerij, The Hague, 2015'<br>
+            Fantastic enemy exhibition, 3sec. gallery,
+            Breda(Graphic design festival Breda), 2015
+          </div>
+          <div class="col" id = "about">about</div>
+          <div class="col-5" id = "about_details">
+            I like experimenting during my design process with both analog and digital media. I have a particular interest in editorial design, type design and typography, interactive media design and electronic installations.
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class = "legend">
+    <div class="form-check" i>
+      <input class="form-check-input" type="checkbox" id="Checkbox1" value="option1" onclick="myFunction()">
+      <label class="form-check-label" for="inlineCheckbox1">Flexible Wall</label>
+    </div>
+    <div class="form-check" id = "form-check">
+      <input class="form-check-input" type="checkbox" id="Checkbox2" value="option2">
+      <label class="form-check-label" for="inlineCheckbox2">25*83'54 - 108*96'75</label>
+    </div>
+    <div class="form-check" id = "form-check">
+      <input class="form-check-input" type="checkbox" id="Checkbox3" value="option3">
+      <label class="form-check-label" for="inlineCheckbox3">Gabra Tent</label>
+    </div>
+    <div class="form-check" id = "form-check">
+      <input class="form-check-input" type="checkbox" id="Checkbox4" value="option4">
+      <label class="form-check-label" for="inlineCheckbox3">In-between inside and inside</label>
+    </div>
+    <div class="form-check" id = "form-check">
+      <input class="form-check-input" type="checkbox" id="Checkbox5" value="option5">
+      <label class="form-check-label" for="inlineCheckbox3">Perceelnummer: 3927</label>
+    </div>
+  </div>
+
+  <div class = "FW" id = "FW"></div>
+
+</body>
+</html>
